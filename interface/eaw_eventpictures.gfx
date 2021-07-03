@@ -1344,4 +1344,8 @@ spriteTypes = {
 		name = "GFX_news_longsword_civil_war"
 		texturefile = "gfx/event_pictures/longsword_civil_war.dds"
 	}
+	spriteType = {
+		name = "GFX_event_diarchy"
+		texturefile = "gfx/event_pictures/event_diarchy.tga"
+	}
 }
