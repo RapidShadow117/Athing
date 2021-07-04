@@ -1571,17 +1571,15 @@ country_event = {	######### Thorax and Pharynx transformation #########
 	
 		name = thoraxian.42.a
 		
-		effect_tooltip = {
-			retire_country_leader = yes
-			create_country_leader = {
-			name = "Queen Mesosoma and Trachea"
-			picture = "Diarchy.tga"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-			}
+		kill_country_leader = yes
+		create_country_leader = {
+		name = "Queen Mesosoma and Trachea"
+		picture = "Diarchy.tga"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+		
 			}
 		}
-		
 	}
 }
