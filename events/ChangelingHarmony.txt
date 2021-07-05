@@ -1572,6 +1572,7 @@ country_event = {	######### Thorax and Pharynx transformation #########
 		name = thoraxian.42.a
 		
 		kill_country_leader = yes
+		
 		create_country_leader = {
 		name = "Queen Mesosoma and Trachea"
 		picture = "Diarchy.tga"
@@ -1580,6 +1581,20 @@ country_event = {	######### Thorax and Pharynx transformation #########
 		traits = {
 		
 			}
+		}
+		
+		remove_unit_leader = 601
+		
+		create_corps_commander = {
+		name = "Queen Trachea"
+		portrait_path = "gfx/leaders/CCN/Trachea.tga"
+		traits = { changeling_race_trait armor_officer promising_general }
+		id = 69420
+		skill = 4
+		attack_skill = 5
+		defense_skill = 5
+		planning_skill = 4
+		logistics_skill = 4
 		}
 	}
 }
